@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowclient",
+  "version": "${version}",
+  "name": "Shadow Client",
+  "description": "A configurable client-side utility mod for Minecraft 1.20.1.",
+  "authors": ["Shadow Client"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.shadow.client.ShadowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
